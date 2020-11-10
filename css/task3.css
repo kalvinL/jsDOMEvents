@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    height: 65vh;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.boxes > div {
+    box-sizing: border-box;
+    font-size: 0;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
